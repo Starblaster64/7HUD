@@ -4891,6 +4891,17 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"SpectatorVerySmall"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"7"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		// Used by scoreboard and spectator UI for names which don't map in the normal fashion
 		"DefaultVerySmallFallBack"
 		{
