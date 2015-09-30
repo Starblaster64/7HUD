@@ -55,7 +55,7 @@
 		"CornerRadius"	  "1"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"Regular10"
+		"TextFont"		"Regular11"
 		
 		"TeamBlue"		"91 122 140 255"
 		"TeamRed"		"189 59 59 255"
@@ -84,19 +84,19 @@
 		"controlname"	"CExLabel"
 		"fieldname"	"fogCrosshair"
 		
-		"visible"	"0"			//1 to make visible
+		"visible"	"1"			//1 to make visible
 		"enabled"	"1"
 
 		"xpos"		"c-16"		//place laterally
-		"ypos"		"c-16"		//place vertically
+		"ypos"		"c-14"		//place vertically
 		"zpos"		"2"
 		
-		"wide"		"33"		//minute placement adjustments laterally
-		"tall"		"34"		//minute placement adjustments vertically
+		"wide"		"32"		//minute placement adjustments laterally
+		"tall"		"33"		//minute placement adjustments vertically
 
 		"font"		"fogCrosshair"		//change to fogCrosshairSmall for a smaller xhair
 
-		"labeltext"	"y"
+		"labeltext"	"c"
 		// Change the "y" to represent the crosshair you want displayed in the Crosshairs.jpg
 		
 		// Remember, each resolution behaves differently, if your crosshair is skewed, not centered,
@@ -104,7 +104,7 @@
 		// There are no fixed numbers for this
 		"textAlignment"	"center"
 		
-		"fgcolor"	"WhiteS"
+		"fgcolor"	"145 255 25 255"
 		
 		// You can insert an RGB code here instead of the "White"
 		
