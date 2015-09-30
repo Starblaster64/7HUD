@@ -90,7 +90,7 @@
 				"tall"        "14"
 				"autoResize"		"0"
 				"pinCorner"		"0"
-				"fillcolor"		"WhiteS"
+				"fillcolor"		"145 145 145" //"WhiteS"
 				"alpha"				"255"
 				"visible"			"1"
 				"enabled"			"1"
@@ -469,7 +469,7 @@
 		"itemmodelpanel"
 		{
 			"fieldName"		"itemmodelpanel"
-			"use_item_rendertarget" "1"
+			"use_item_rendertarget" "0"
 			"useparentbg"		"1"
 		}
 		
@@ -477,7 +477,7 @@
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
-			"font"			"DefaultSmall"
+			"font"			"Regular8"
 			"xpos"			"10"
 			"ypos"			"3"
 			"zpos"			"1"
@@ -493,24 +493,24 @@
 			"brighttext"	"0"
 		}
 		
-		"attriblabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"attriblabel"
-			"font"			"ItemFontAttribLarge"
-			"xpos"			"0"
-			"ypos"			"30"
-			"zpos"			"2"
-			"wide"			"140"
-			"tall"			"60"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"%attriblist%"
-			"textAlignment"	"south"
-			"fgcolor"		"235 226 202 255"
-			"centerwrap"	"1"
-		}
+		//"attriblabel"
+		//{
+		//	"ControlName"	"CExLabel"
+		//	"fieldName"		"attriblabel"
+		//	"font"			"ItemFontAttribLarge"
+		//	"xpos"			"0"
+		//	"ypos"			"30"
+		//	"zpos"			"2"
+		//	"wide"			"140"
+		//	"tall"			"60"
+		//	"autoResize"	"0"
+		//	"pinCorner"		"0"
+		//	"visible"		"1"
+		//	"enabled"		"1"
+		//	"labelText"		"%attriblist%"
+		//	"textAlignment"	"south"
+		//	"fgcolor"		"235 226 202 255"
+		//	"centerwrap"	"1"
+		//}
 	}	
 }
