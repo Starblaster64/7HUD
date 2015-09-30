@@ -31,7 +31,7 @@
 		"itemmodelpanel"
 		{
 			"fieldName"		"itemmodelpanel"
-			"use_item_rendertarget" "0"
+			"use_item_rendertarget" "1" //0
 			"useparentbg"		"1"
 		}
 		
@@ -47,8 +47,8 @@
 			"tall"			"9"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"0"
+			"visible"		"1" //0
+			"enabled"		"1" //0
 			"labelText"		"#FreezePanel_Item"
 			"textAlignment"	"Left"
 			"dulltext"		"0"
