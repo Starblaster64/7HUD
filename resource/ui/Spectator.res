@@ -266,7 +266,7 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
-		"xpos"			"0"
+		"xpos"			"0" //r200
 		"ypos"			"0"
 		"zpos"			"10"
 		"wide"			"190"
@@ -293,7 +293,7 @@
 		"itemmodelpanel"
 		{
 			"fieldName"		"itemmodelpanel"
-			"use_item_rendertarget" "1"
+			"use_item_rendertarget" "0" //1
 			"useparentbg"		"1"
 		}
 		
@@ -303,20 +303,20 @@
 			"fieldName"		"ItemLabel"
 			"font"			"Regular8"
 			"xpos"			"10"
-			"ypos"			"99999"
+			"ypos"			"3"
 			"zpos"			"1"
 			"wide"			"270"
 			"tall"			"9"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"0"
+			"visible"		"1" //0
+			"enabled"		"1" //0
 			"labelText"		"#FreezePanel_Item"
 			"textAlignment"	"Left"
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
-	}	
+	}
 	"spectator_extras"
 	{
 		"ControlName"	"EditablePanel"
