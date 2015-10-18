@@ -445,9 +445,9 @@
 		"tall"			"154"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"			//1
-		"enabled"		"0"			//1
-		"fillcolor"		"255 255 255 50"
+		"visible"		"1"			//0
+		"enabled"		"1"			//0
+		"fillcolor"		"255 255 255 15"
 	}
 
 	"PilotTop"
@@ -461,9 +461,9 @@
 		"tall"			"38"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"			//1
-		"enabled"		"0"			//1
-		"fillcolor"		"255 255 255 100"
+		"visible"		"1"			//0
+		"enabled"		"1"			//0
+		"fillcolor"		"255 255 255 75"
 	}
 	"PilotBottom"
 	{
@@ -476,9 +476,9 @@
 		"tall"			"38"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"			//1
-		"enabled"		"0"			//1
-		"fillcolor"		"255 255 255 150"
+		"visible"		"1"			//0
+		"enabled"		"1"			//0
+		"fillcolor"		"255 255 255 85"
 	}
 	"PilotLeft"
 	{
@@ -491,9 +491,9 @@
 		"tall"			"1"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"			//1
-		"enabled"		"0"			//1
-		"fillcolor"		"255 255 255 100"
+		"visible"		"1"			//0
+		"enabled"		"1"			//0
+		"fillcolor"		"255 255 255 75"
 	}
 	
 
@@ -508,9 +508,9 @@
 		"tall"			"1"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"			//1
-		"enabled"		"0"			//1
-		"fillcolor"		"255 255 255 100"
+		"visible"		"1"			//0
+		"enabled"		"1"			//0
+		"fillcolor"		"255 255 255 75"
 	}
 	
 	/////////////////////////////
@@ -527,9 +527,9 @@
 		"tall"			"1"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"			//1
-		"enabled"		"0"			//1
-		"fillcolor"		"255 255 255 50"
+		"visible"		"1"			//0
+		"enabled"		"1"			//0
+		"fillcolor"		"255 255 255 15"
 	}
 	
 	"PilotHorizontal2"
@@ -543,9 +543,9 @@
 		"tall"			"1"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"			//1
-		"enabled"		"0"			//1
-		"fillcolor"		"255 255 255 50"
+		"visible"		"1"			//0
+		"enabled"		"1"			//0
+		"fillcolor"		"255 255 255 15"
 	}
 	
 	/////////////////////////////////
