@@ -88,9 +88,9 @@
 	}
 	"Version"
 	{
-		"label" "7HUD v4.23"
+		"label" "7HUD v4.31"
 		"command"		"engine toggleconsole;
-			play vo/scout_award12.mp3
+			play vo/halloween_merasmus/hall2015_reward_14.mp3
 			echo -------------------------------------------------------------------------------;
 			echo -------------------------------------------------------------------------------;
 			echo ---------- To check for updates go to steamcommunity.com/groups/7HUD ----------;
