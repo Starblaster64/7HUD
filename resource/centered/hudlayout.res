@@ -75,7 +75,7 @@
 	/////////////////////////////////////////////////////////////////////////////
 	
 	/////////////////////////////////////////////////////////////////////////////
-	//Fog's Crosshair
+	//Fog's Crosshairs
 	/////////////////////////////////////////////////////////////////////////////
 
 
@@ -97,7 +97,7 @@
 		"font"		"fogCrosshair"		//change to fogCrosshairSmall for a smaller xhair
 
 		"labeltext"	"y"
-		// Change the "y" to represent the crosshair you want displayed in the Crosshairs.jpg
+		// Change the "y" to represent the crosshair you want displayed in the fogscrosshairsv3.png
 		
 		// Remember, each resolution behaves differently, if your crosshair is skewed, not centered,
 		// you will have to play around with the "xpos", "ypos", "wide" and "tall" values.
@@ -117,6 +117,50 @@
 		// flashing upon giving damage.
 
 	}
+	
+	/////////////////////////////////////////////////////////////////////////////
+	//Knuckle's Crosshairs
+	/////////////////////////////////////////////////////////////////////////////
+
+
+	"KnucklesCrosses"
+		{
+		"controlname"	"CExLabel"
+		"fieldname"	"KnucklesCrosses"
+		
+		"visible"	"0"			//1 to make visible
+		"enabled"	"1"
+
+		"xpos"		"c-16"		//place laterally
+		"ypos"		"c-16"		//place vertically
+		"zpos"		"2"
+		
+		"wide"		"33"		//minute placement adjustments laterally
+		"tall"		"34"		//minute placement adjustments vertically
+
+		"font"		"knucklesCrosshair"		//change to knucklesCrosshairSmall for a smaller xhair
+
+		"labeltext"	"6"
+		// Change the "6" to represent the crosshair you want displayed in the knucklescrosshairs.png
+		
+		// Remember, each resolution behaves differently, if your crosshair is skewed, not centered,
+		// you will have to play around with the "xpos", "ypos", "wide" and "tall" values.
+		// There are no fixed numbers for this
+		"textAlignment"	"center"
+		
+		"fgcolor"	"WhiteS"
+		
+		// You can insert an RGB code here instead of the "White"
+		
+		// R	G	B	Transparency	= color
+		// "255 255 255 255"	= White
+		// "255 255 0 255 	= Yellow
+		// "145 225 25 255"	= Green
+		// If you change this, remember to change the same value in HudAnimations_tf.txt
+		// Otherwise the crosshair will change back to the default white color after
+		// flashing upon giving damage.
+
+	}		
 	
 	/////////////////////////////////////////////////////////////////////////////
 	//Garm3n's Crosshairs
@@ -1515,7 +1559,7 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"c-125"
-		"ypos"			"c-55"
+		"ypos"			"c-100"
 		"wide"			"250"
 		"tall"			"195"
 		"PaintBackgroundType"	"0"
@@ -1864,10 +1908,10 @@ ItemQuickSwitchPanel
 		"tall"			"150"
 	}
 	
-	"CTFKillStreakNotice"
+	"CTFStreakNotice"
 	{
-		"fieldName"		"CTFKillStreakNotice"
-		"xpos"			"0"			
+		"fieldName"		"CTFStreakNotice"
+		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"640"
 		"tall"			"480"
@@ -1876,6 +1920,18 @@ ItemQuickSwitchPanel
 		"bgcolor_override"	"0 0 0 0"
 		"PaintBackgroundType"	"0" // rounded corners
 	}
+
+	CTFFlagCalloutPanel
+	{
+		"fieldName"		"CTFFlagCalloutPanel"
+		"visible" 		"0"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"	 		"40"
+		"tall"	 		"40"
+		"priority"		"40"
+	}	
 	
 	"HudMenuTauntSelection"
 	{
@@ -1886,6 +1942,18 @@ ItemQuickSwitchPanel
 		"ypos"			"c-65"
 		"wide"			"490"
 		"tall"			"200"
+		"PaintBackgroundType"	"0"
+	}
+
+	"ItemAttributeTracker"
+	{
+		"fieldName" 	"ItemAttributeTracker"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f5"
+		"tall"			"f0"
 		"PaintBackgroundType"	"0"
 	}
 		
@@ -1921,5 +1989,28 @@ ItemQuickSwitchPanel
 		"ypos"			"0"
 		"wide"	 		"f0"
 		"tall"	 		"f0"
-	}		
+	}
+
+	"MatchMakingContainer"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName" 		"MatchMakingContainer"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"	 		"f0"
+		"tall"	 		"f0"
+	}
+
+	HudSpectatorExtras
+	{
+		"fieldName" "HudSpectatorExtras"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"f0"
+	}	
 }

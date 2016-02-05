@@ -86,11 +86,23 @@
 		"label" "7"
 		"command" "engine Server2"
 	}
+	"7HUD"
+	{
+		"label" "7HUD"
+		"command"		"engine toggleconsole;
+			play vo/toughbreak/plng_toughbreak_contractgiverare_beergarden.mp3
+			echo -------------------------------------------------------------------------------;
+			echo -------------------------------------------------------------------------------;
+			echo ---------- To check for updates go to steamcommunity.com/groups/7HUD ----------;
+			echo -------------------------------------------------------------------------------;
+			echo -------------------------------------------------------------------------------"
+		"subimage" "glyph_muted"
+	}	
 	"Version"
 	{
-		"label" "7HUD v4.31"
+		"label" "v4.35"
 		"command"		"engine toggleconsole;
-			play vo/halloween_merasmus/hall2015_reward_14.mp3
+			play vo/toughbreak/plng_toughbreak_contractgiverare_beergarden.mp3
 			echo -------------------------------------------------------------------------------;
 			echo -------------------------------------------------------------------------------;
 			echo ---------- To check for updates go to steamcommunity.com/groups/7HUD ----------;
@@ -105,7 +117,7 @@
     }
 	"demoui"
     {
-        "label" "demoui"
+        "label" "DemoUI"
         "command"   "engine demoui"
     }
 

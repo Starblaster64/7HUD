@@ -61,16 +61,16 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImageBG"
-		"xpos"          "r14"  
+		"xpos"          "9999"  		//r14
         "ypos"          "r32"
         "zpos"          "51"
-        "wide"          "14"
-        "tall"          "14"
-		"visible"		"1"
-		"enabled"		"1"
+        "wide"          "0"				//14
+        "tall"          "0"				//14
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"
-		"image"				"replay/thumbnails/bg_blank"	
-		"teambg_1"			"replay/thumbnails/bg_blank"
+		"image"				""	
+		"teambg_1"			""
 		"teambg_2"      "replay/thumbnails/bg_redtri"
         "teambg_3"      "replay/thumbnails/bg_bluetri"
 	}
@@ -87,8 +87,8 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"scaleImage"	"1"
-		"image"				"replay/thumbnails/bg_black"	
-		"teambg_1"			"replay/thumbnails/bg_black"
+		"image"				""	
+		"teambg_1"			""
 		"teambg_2"			"replay/thumbnails/bg_red"
 		"teambg_2_lodef"	"replay/thumbnails/bg_red"
 		"teambg_3"			"replay/thumbnails/bg_blue"
@@ -194,7 +194,7 @@
 				"fov"			"27"
 				"angles_x"		"0"
 				"angles_y"		"270"
-				"angles_z"		"-10"
+				"angles_z"		"0"
 				"origin_x"		"145"
 				"origin_y"		"15"
 				"origin_z"		"-47"
@@ -279,6 +279,119 @@
 				"origin_y"		"15"
 				"origin_z"		"-52"
 			}
+		}
+	}
+
+	"CarryingWeapon"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"CarryingWeapon"
+		"xpos"					"5"
+		"ypos"					"r90"
+		"zpos"					"100"
+		"wide"					"500"
+		"tall"	 				"28"
+
+		"CarryingBackground"
+		{
+			"ControlName"			"CTFImagePanel"
+			"fieldName"				"CarryingBackground"
+			"xpos"					"0"
+			"ypos"					"0"
+			"zpos"					"0"
+			"wide"					"p1"
+			"tall"	 				"f0"
+			"autoResize"			"0"
+			"pinCorner"				"0"
+			"visible"				"1"
+			"enabled"				"1"
+			"image"					"../hud/color_panel_brown"
+			"scaleImage"			"1"
+			"teambg_1"				"../hud/color_panel_brown"
+			"teambg_2"				"../hud/color_panel_red"
+			"teambg_2_lodef"		"../hud/color_panel_red"
+			"teambg_3"				"../hud/color_panel_blu"
+			"teambg_3_lodef"		"../hud/color_panel_blu"
+			"proportionaltoparent"	"1"
+		
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
+		}
+
+		"CarryingLabel"
+		{	
+			"ControlName"		"CExLabel"
+			"fieldName"			"CarryingLabel"
+			"font"				"ReplayBrowserSmallest"
+			"font_minmode"		"Regular10"
+			"xpos"				"5"
+			"ypos"				"3"
+			"zpos"				"1"
+			"wide"				"200"
+			"tall"	 			"f0"
+			"autoResize"		"0"
+			"pinCorner"			"0"
+			"visible"			"1"
+			"enabled"			"1"
+			"textAlignment"		"North-West"
+			"dulltext"			"0"
+			"brighttext"		"0"
+			"proportionaltoparent"	"1"
+			"auto_wide_tocontents"	"1"
+			"labelText"			"%carrying%"
+		}
+
+		"CarryingLabelDropShadow"
+		{	
+			"ControlName"		"CExLabel"
+			"fieldName"			"CarryingLabelDropShadow"
+			"font"				"ReplayBrowserSmallest"
+			"font_minmode"		"Regular10"
+			"xpos"				"p0.011"
+			"ypos"				"p0.12"
+			"zpos"				"0"
+			"wide"				"200"
+			"tall"	 			"f0"
+			"autoResize"		"0"
+			"pinCorner"			"0"
+			"visible"			"1"
+			"enabled"			"1"
+			"textAlignment"		"North-West"
+			"dulltext"			"0"
+			"brighttext"		"0"
+			"proportionaltoparent"	"1"
+			"auto_wide_tocontents"	"1"
+			"fgcolor_override"	"Black"
+			"labelText"			"%carrying%"
+		}
+
+		"OwnerLabel"
+		{	
+			"ControlName"		"Label"
+			"fieldName"			"OwnerLabel"
+			"font"				"FontStoreOriginalPrice"
+			"font_minmode"		"Regular8"
+			"xpos"				"5"
+			"xpos_minmode"		"5"
+			"ypos"				"12"
+			"ypos_minmode"		"10"
+			"zpos"				"0"
+			"wide"				"200"
+			"wide_minmode"		"f0"
+			"tall"	 			"f0"
+			"tall_minmode"		"f0"
+			"autoResize"		"0"
+			"pinCorner"			"0"
+			"visible"			"1"
+			"enabled"			"1"
+			"textAlignment"		"North-West"
+			"dulltext"			"0"
+			"brighttext"		"0"
+			"proportionaltoparent"	"1"
+			"auto_wide_tocontents"	"1"
 		}
 	}
 }
